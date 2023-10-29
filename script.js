@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+918171678311'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>+918171678311</label></div> </a> <a href='mailto:garvmittal2003@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/GarvMittal04'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/918171678311'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/GARV_MITTAL_0410'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/garv_rajesh_mittal'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/garv-mittal-536059241' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
-var addressString = "<div class='mapview'><iframe src='https://maps.google.com/maps?q=Durga Shakha Park Shastri Nagar&t=&z=13&ie=UTF8&iwloc=&output=embed' class='map'></iframe></div><label class='add'><address>Vidhya Nagar, Shastri Nagar, <br>Merrut<br> Uttar Pardesh, INDIA 250004</address>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+919818125685'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>+919818125685</label></div> </a> <a href='mailto:devansh.verma04@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/DevanshV03'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/+919818125685'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/Devanshv03'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/devansh_v03'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/devansh-verma-6998a9298/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
+var addressString = "<div class='mapview'><iframe src='https://maps.google.com/maps?q=Ace Aspire Gautam Budh Nagar&t=&z=13&ie=UTF8&iwloc=&output=embed' class='map'></iframe></div><label class='add'><address>Gautam Budh Nagar, <br>Greater Noida West<br> Uttar Pardesh, INDIA 201306</address>";
 function startFunction() {
     setLastSeen();
     waitAndResponce("intro");
@@ -71,18 +71,18 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Garv Mittal</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>SRM Institute of Science and Technology👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Devansh Verma</a>.</span><br><br>I am a Computer Engineering student at <span class='bold'>SRM Institute of Science and Technology👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'help'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "help":
             sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>ReactJs<br>Figma</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Asus Tuf A17<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>Python<br>CSS<br>HTML</span><br><br>I've experience with the following frameworks :<span class='bold'><br>ReactJs<br>Figma</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my Laptop<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
             break;
 
         case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from SRM Institute of Science and Technology<br>Passing Year : 2026<br><br>I have completed my secondary school from KL International School<br>Passing Year:2022<br>Result:83.73%<br>");
+            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from SRM Institute of Science and Technology<br>Passing Year : 2026<br><br>I have completed my secondary school from Delhi World Public School<br>Passing Year:2022<br>Result:91.2%<br>");
             break;
         case "address":
             sendTextMessage(addressString);
@@ -91,13 +91,13 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/garv_rajesh_mittal/'><span class='bold'>Garv Mittal</a> with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https://instagram.com/devansh_v03'><span class='bold'>Devansh Verma</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
             break;
         case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/GarvMittal04'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/DevanshV03'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "new":
             sendTextMessage(addressString);
